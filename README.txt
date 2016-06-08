@@ -2,8 +2,10 @@ Authors:
 Sahit Bollineni
 Juan Orozco
 
+Please visit http://sahitb.github.io/VisionProjFaceDetectRecog/ to check out the Github Page for this project. The full writeup in CVPR format can be found in the FinalReport_CVPR.pdf file.
 
-This files provides brief instructions on how to run the different algorithms that we implemented.
+
+This file provides brief instructions on how to run the different algorithms that we implemented.
 
 
 
