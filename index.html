@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Vision Project - Implementation of Classroom Attendance through Facial Detection and Recognition by sahitb</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Vision Project - Implementation of Classroom Attendance through Facial Detection and Recognition</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/sahitb/VisionProjFaceDetectRecog">View the Project on GitHub <small>sahitb/VisionProjFaceDetectRecog</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/sahitb/VisionProjFaceDetectRecog/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/sahitb/VisionProjFaceDetectRecog/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/sahitb/VisionProjFaceDetectRecog">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h2>
+
+<p>In recent years, in order to improve the quality of education and ensure that students are obtaining an optimal educational experience, some instructors have made attendance mandatory. Currently, this has been enforced through the use of some sort of sign-in sheet or clickers that record student responses. Unfortunately, in many instances, this has led to a rise in academic disintegrity and the policies have not resulted in the intended effect. This project aims to implement an innovative approach to record classroom attendance through the use of computer vision techniques.</p>
+
+<h2>
+<a id="approach" class="anchor" href="#approach" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Approach</h2>
+
+<p>In order to determine classroom attendance using computer vision techniques, an image of the students present in the class is taken from the front of the classroom, as seen in Figure 1.</p>
+
+<p><img src="http://s33.postimg.org/72cn067nz/IMG_0587.jpg" alt="Figure 1. Classroom Image"></p>
+
+<p>Using this image, face detection and face recognition are performed. Face detection is used to determine the location of the faces in the classroom image and extract sub images of all the faces found. Then, face recognition is used to determine the identity of the students present by comparing the faces detected with the face images from the students enrolled in the class. Finally, using the identities of the students present, attendance is recorded. This process is briefly illustrated in Figure 2.</p>
+
+<p><img src="http://s33.postimg.org/qw15bzadr/Poster_Fig1_1.png" alt="Figure 2. High-Level System Architecture"></p>
+
+<p>For this project, various face detection and face recognition algorithms were investigated and a total of two methods for each task were implemented from scratch. For face detection, a skin-color blob detection algorithm and the Viola-Jones algorithm were implemented. For face recognition, eigenfaces and neural networks were implemented. We implemented these different methodologies to understand different forms of face detection and face recognition algorithms and to investigate how higher accuracy and robustness are achieved. These algorithms were implemented using MATLAB R2015a and they are discussed in the following sections.</p>
+
+<p>Please read the FinalReport_CVPR.pdf file for the complete writeup on this project.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/sahitb">sahitb</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
